@@ -64,9 +64,15 @@ article h2 {
     margin-bottom: 4px;
 }
 
-
+aside {
+    background-color:black;
+    float: right;
+    margin: 0 0 10px 5%; /*horizontal use percent,vert use pixels */
+    width: 47.5%;
+}
 
 footer {
+    clear: both;
     font-size: 10px;
  padding: 0 10px 0 10px;   
 }
