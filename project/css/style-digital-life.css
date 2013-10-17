@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    size: 10px 10px 10px 10px;
+    padding: 0;
+}
+
+body {
+    font-family: georgia, serif;
+    font-size: 16px;
+    line-height: 5px;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    height: 100px;
+}
+
+header h1 {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px; /* TRouBLe */
+}
+header h2 {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 5px; /* TRouBLe */
+}
+header h3 {
+    float: left;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    padding: 5px; /* TRouBLe */
+}
+
+p {
+}
+
+nav {
+    float: right;
+    margin: 12px 12px 12px 12px;   
+}
+header a {
+    color:#aaaaaa;   
+    margin-right: 20px;
+    text-decoration: none;
+}
+header aside {
+    float: right;
+    color: white
+}
+
+header a:link {}
+header a:visited {}
+header a:hover {
+    color: #ffffff;   
+}
+header a:active {
+    text-decoration: underline;
+}
+header a:focus {}
+
+article {
+    clear: both; 
+    padding: 0 10px 0 10px;
+}
+
+article h1 {
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 4px;
+}
+img {
+    box-sizing: border-box;
+    margin: 10px 10px 20px 20px;
+    padding: 5px;
+}
+
+footer {
+    clear: both;
+    font-size: 10px;
+ padding: 0 10px 0 10px;   
+}
