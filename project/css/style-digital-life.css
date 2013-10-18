@@ -8,33 +8,39 @@
 body {
     font-family: georgia, serif;
     font-size: 16px;
-    line-height: 5px;
+    line-height: 15px;
 }
 
 header {
     background-color: #000000;
     color: #ffffff;
     height: 100px;
+    padding: 10px;
 }
 
 header h1 {
     font-family: helvetica, arial, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
-    padding: 5px; /* TRouBLe */
+}
+
+header h1 p {
+    color: green;
+    float:right;
 }
 header h2 {
     font-family: helvetica, arial, sans-serif;
     font-size: 15px;
     font-weight: 100;
-    padding: 5px; /* TRouBLe */
+}
+header h2 aside {
+    float: right;
+    
 }
 header h3 {
-    float: left;
     font-family: helvetica, arial, sans-serif;
     font-size: 10px;
     font-weight: 100;
-    padding: 5px; /* TRouBLe */
 }
 
 p {
@@ -46,12 +52,14 @@ nav {
 }
 header a {
     color:#aaaaaa;   
-    margin-right: 20px;
-    text-decoration: none;
+    margin-right: 4px;
+    text-decoration: inherit;
+    padding-top:10px;
 }
 header aside {
     float: right;
-    color: white
+    color: white;
+    padding-top:
 }
 
 header a:link {}
@@ -62,26 +70,36 @@ header a:hover {
 header a:active {
     text-decoration: underline;
 }
-header a:focus {}
+
 
 article {
     clear: both; 
-    padding: 0 10px 0 10px;
+    height: 500px;
+    width: auto;
 }
 
-article h1 {
-    font-size: 36px;
-    line-height: 44px;
-    margin-top: 4px;
+article img {
+    height: 500px;
+    width: 300px;
 }
-img {
-    box-sizing: border-box;
-    margin: 10px 10px 20px 20px;
-    padding: 5px;
+article nav {
+    width: 100px;
+    height: 500px;
+    line-height: 90px;
+    font-family: arial, times new roman, sans-serif;
+    font-weight: 800;
+    align-content: center;
 }
 
 footer {
-    clear: both;
-    font-size: 10px;
- padding: 0 10px 0 10px;   
+    background-color: #000000;
+    color: #ffffff;
+    height: 100px;
+    padding:inherit;
+    line-height: 20px;
+    font-size: 10px;  
+}
+
+footer p {
+    float:right;
 }
