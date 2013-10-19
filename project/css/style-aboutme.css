@@ -20,13 +20,15 @@ header {
 
 header h1 {
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 500;
 }
 
 header h1 p {
     color: #8CA680;
+    text-decoration:underline;
     float:right;
+    font-size: 15px;
 }
 header h2 {
     font-family: Verdana, Geneva, sans-serif;
