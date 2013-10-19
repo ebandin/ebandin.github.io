@@ -59,25 +59,31 @@ article {
     height: 500px;
     padding: 0px;
     column-fill: auto;
-    background-color:#F2F2F2;
+    background-color:#8CA680;
 }
-
+article h1 { 
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 50%;
+    color: #F2F2F2;
+}
+article p {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 20px;
+    padding: 0 40px 10% 40px;
+    line-height: 30px;
+    color: #8CA680;
+    background-color: #262626;
+}
 article img {
     height: 500px;
     width: 25%;
     margin: 0 0 20% 10px;
 }
-article nav {
-    float: right;
-    height: 100%;
-    width: 20%;
-    line-height: 90px;
-    padding: 0 40px 5% 40px;
-    font-family: Verdana, Geneva, sans-serif;
-    font-weight: 500;
-    font-size: 20px ;
-    background-color: #262626;
-}
+
 article a:link {
     color: #CAD9B4;
     text-decoration: none;
