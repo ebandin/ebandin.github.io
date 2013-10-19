@@ -26,9 +26,9 @@ header h1 {
 
 header h1 p {
     color: #8CA680;
-    text-decoration:underline;
     float:right;
     font-size: 15px;
+    line-height: 20px;
 }
 header h2 {
     font-family: Verdana, Geneva, sans-serif;
@@ -59,14 +59,16 @@ article {
     height: 500px;
     padding: 0px;
     column-fill: auto;
-    background-color:#8CA680;
+    background-color:#D9D9D9;
 }
 article h1 { 
     font-family: Verdana, Geneva, sans-serif;
     font-size: 30px;
     font-weight: 500;
     padding-left: 50%;
-    color: #F2F2F2;
+    color: #8CA680;
+    
+
 }
 article p {
     font-family: Verdana, Geneva, sans-serif;
@@ -79,9 +81,7 @@ article p {
     background-color: #262626;
 }
 article img {
-    height: 500px;
-    width: 25%;
-    margin: 0 0 20% 10px;
+    padding: 5%
 }
 
 article a:link {
