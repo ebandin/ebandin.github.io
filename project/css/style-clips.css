@@ -95,12 +95,12 @@ article p {
     background-color: #262626;
 }
 article img {
-    float: right;
-    height: 25%;
-    width: 25%;
+    clear: both;
+    height: 100%;
+    width: 50%;
     padding: 10px;
 }
-/* ARTICLE LINKS */
+
 article a:link {
     color: #CAD9B4;
     text-decoration: none;
@@ -127,7 +127,6 @@ footer {
     font-size: 10px;  
     clear: both;
 }
-/* FOOTER LINKS */
 footer a:link {
     color: #CAD9B4;
 }

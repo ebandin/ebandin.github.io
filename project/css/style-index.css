@@ -26,9 +26,9 @@ header h1 {
 
 header h1 p {
     color: #8CA680;
+    line-height: 20px;
     float:right;
     font-size: 15px;
-    line-height: 20px;
 }
 header h2 {
     font-family: Verdana, Geneva, sans-serif;
@@ -53,52 +53,33 @@ header a {
 header aside {
     float: right;
 }
-header a:link {
-    color: #CAD9B4;
-}
-header a:visited {
- color: #F2F2F2;
-}
-header a:hover {
-    color: #ffffff;   
-}
-header a:active {
-    text-decoration: underline;
-}
 /* BODY RULES */
 article {
     clear: both; 
- height: stretch;
-    padding: 0px;
+    height: stretch;
+    padding: 10px;
     column-fill: auto;
     background-color:#D9D9D9;
 }
-article h1 { 
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    padding-left: 50%;
-    color: #8CA680;
-        text-decoration:underline;
-    
-    
 
+article img {
+    height: 500px;
+    width: 25%;
+    margin: 0 0 10px 10px;
 }
-article p {
+article nav {
+    float: right;
+    width: 20%;
+    line-height: 90px;
+    padding: 0 40px 5% 40px;
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 15px;
     font-weight: 500;
-    margin: 20px;
-    padding:  40px 10% 40px;
-    line-height: 30px;
-    color: #8CA680;
+    font-size: 20px ;
     background-color: #262626;
 }
-article img {
-    float: right;
-    height: 25%;
-    width: 25%;
-    padding: 10px;
+article nav h1 {
+    text-decoration: underline;
+    color: #8CA680;
 }
 /* ARTICLE LINKS */
 article a:link {
@@ -125,7 +106,7 @@ footer {
     padding-right:10px;
     line-height: 20px;
     font-size: 10px;  
-    clear: both;
+        clear: both;
 }
 /* FOOTER LINKS */
 footer a:link {

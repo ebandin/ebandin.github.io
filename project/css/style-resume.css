@@ -68,7 +68,7 @@ header a:active {
 /* BODY RULES */
 article {
     clear: both; 
- height: stretch;
+    height: stretch;
     padding: 0px;
     column-fill: auto;
     background-color:#D9D9D9;
@@ -79,8 +79,7 @@ article h1 {
     font-weight: 500;
     padding-left: 50%;
     color: #8CA680;
-        text-decoration:underline;
-    
+ text-decoration:underline;
     
 
 }
@@ -93,14 +92,14 @@ article p {
     line-height: 30px;
     color: #8CA680;
     background-color: #262626;
+    align-content:center;
 }
 article img {
-    float: right;
-    height: 25%;
-    width: 25%;
+    height: 100%;
+    width: 90%;
     padding: 10px;
 }
-/* ARTICLE LINKS */
+
 article a:link {
     color: #CAD9B4;
     text-decoration: none;
@@ -122,12 +121,11 @@ footer {
     background-color: #262626;
     color: #8CA680;
     height: 50px;
-    padding-right:10px;
+    padding-right:10px; 
     line-height: 20px;
     font-size: 10px;  
     clear: both;
 }
-/* FOOTER LINKS */
 footer a:link {
     color: #CAD9B4;
 }
