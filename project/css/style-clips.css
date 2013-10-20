@@ -77,7 +77,7 @@ article h1 {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 30px;
     font-weight: 500;
-    padding-left: 50%;
+ padding-left: 40%;
     color: #8CA680;
         text-decoration:underline;
     
@@ -97,10 +97,10 @@ article p {
 article img {
     clear: both;
     height: 100%;
-    width: 50%;
+    width: 90%;
     padding: 10px;
 }
-
+/* ARTICLE LINKS */
 article a:link {
     color: #CAD9B4;
     text-decoration: none;
@@ -127,6 +127,7 @@ footer {
     font-size: 10px;  
     clear: both;
 }
+/* FOOTER LINKS */
 footer a:link {
     color: #CAD9B4;
 }

@@ -76,7 +76,7 @@ article h1 {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 30px;
     font-weight: 500;
-    padding-left: 50%;
+    padding-left: 40%;
     color: #8CA680;
         text-decoration:underline;
     
@@ -95,8 +95,9 @@ article p {
 article img {
     clear: both;
     height: 100px;
-    width: 200px;
+    width: 30%;
     padding: 10px;
+    margin-left: 30%;
     word-wrap:normal;
 
     
