@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    size: 10px 10px 10px 10px;
     padding: 0;
 }
 
@@ -24,7 +23,7 @@ header h1 {
     font-weight: 500;
 }
 
-header h1 p {
+header p {
     color: #8CA680;
     float:right;
     font-size: 15px;
@@ -50,8 +49,9 @@ header a {
     text-decoration: inherit;
     padding-top:10px;
 }
-header aside {
+header nav {
     float: right;
+    font-size: 10px
 }
 header a:link {
     color: #CAD9B4;
@@ -68,7 +68,6 @@ header a:active {
 /* BODY RULES */
 article {
     clear: both; 
-    height: stretch;
     padding: 0px;
     column-fill: auto;
     background-color:#D9D9D9;

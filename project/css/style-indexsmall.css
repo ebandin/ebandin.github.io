@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    size: 10px 10px 10px 10px;
     padding: 0;
 }
 
@@ -24,11 +23,11 @@ header h1 {
     font-weight: 500;
 }
 
-header h1 p {
+header p {
     color: #8CA680;
-    line-height: 20px;
     float:right;
     font-size: 15px;
+    line-height: 20px;
 }
 header h2 {
     font-family: Verdana, Geneva, sans-serif;
@@ -50,14 +49,26 @@ header a {
     text-decoration: inherit;
     padding-top:10px;
 }
-header aside {
+header nav {
     float: right;
+    font-size: 10px
+}
+header a:link {
+    color: #CAD9B4;
+}
+header a:visited {
+ color: #F2F2F2;
+}
+header a:hover {
+    color: #ffffff;   
+}
+header a:active {
+    text-decoration: underline;
 }
 /* BODY RULES */
 
 article {
     clear: both; 
-    height: stretch;
     padding: 10px;
     column-fill: auto;
     background-color:#D9D9D9;
