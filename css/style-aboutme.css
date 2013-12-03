@@ -22,6 +22,12 @@ header h1 {
     font-size: 30px;
     font-weight: 500;
 }
+header img {
+    float: right;
+    clear: both;
+    height: 90%;
+    width: 10%;
+}
 
 header p {
     color: #8CA680;
@@ -141,4 +147,80 @@ footer a:active {
 }
 footer p {
     float:right;
+}
+
+
+@media screen and (max-width: 600px) {
+
+ header {
+        height: 155px;
+    }
+    h1, h2, h3, {
+        display: inline;
+        float: left;
+        width: 45%;
+    }
+    
+   header nav {
+        float: left;
+    }
+    header img {
+        width: 40%;
+        height: 100%;
+    }
+    article h1 {
+        text-align: left;
+        padding-left: 20%;
+    }
+    article p {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #8CA680;
+    background-color: #262626;
+    align-content:center;
+    }
+    
+
+}
+@media screen and (max-width: 375px) {
+
+    h1, h2, h3, {
+        display: inline;
+        float: left;
+        width: 45%;
+    }
+    header nav {
+        float: left;
+    
+    }
+    
+    header {
+        height: 120px;
+    }
+    header img {
+        width: 0%;
+        height: 0%;
+    }
+article h1 { 
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 20%;
+    text-decoration:underline;
+    color: #8CA680;  
+
+}
+    article p {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #8CA680;
+    background-color: #262626;
+    align-content:center;
+    }
+    
+
 }
