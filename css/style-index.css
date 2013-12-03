@@ -78,20 +78,27 @@ article img {
     width: 22%;
     margin: 0 0 10px 10px;
 }
+#mediaresponse {
+    display: inline;
+}
 article nav {
     float: right;
     width: 20%;
     height: 500px;
-    line-height: 90px;
-    padding: 0 40px 5% 40px;
+    line-height: 50px;
+    padding: 0 40px 0 3%;
     font-family: Verdana, Geneva, sans-serif;
     font-weight: 500;
-    font-size: 20px ;
+    font-size: 15px ;
+    color: #8CA680;
     background-color: #262626;
+    align-content: center;
 }
+
 article nav h1 {
     text-decoration: underline;
     color: #8CA680;
+    align-content: center;
 }
 
 /* ARTICLE LINKS */
@@ -143,12 +150,7 @@ footer p {
  header {
         height: 155px;
     }
-    h1, h2, h3, {
-        display: inline;
-        float: left;
-        width: 45%;
-    }
-    
+
    header nav {
         float: left;
     }
@@ -156,20 +158,24 @@ footer p {
         width: 40%;
         height: 100%;
     }
-    article h1 {
-        text-align: left;
-        padding-left: 20%;
+    
+#mediaresponse {
+        display: none;
     }
-    article p {
+
+    article nav {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 15px;
     font-weight: 500;
     line-height: 50px;
+    width: 45%;
     color: #8CA680;
     background-color: #262626;
     align-content:center;
     }
-    
+    article img {
+         width: 45%;
+    }
 
 }
 @media screen and (max-width: 375px) {
@@ -191,16 +197,11 @@ footer p {
         width: 0%;
         height: 0%;
     }
-article h1 { 
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    padding-left: 20%;
-    text-decoration:underline;
-    color: #8CA680;  
 
-}
-    article p {
+#mediaresponse {
+        display: none;
+    }
+    article nav {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 15px;
     font-weight: 500;
