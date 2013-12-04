@@ -94,7 +94,7 @@ article p {
 article img {
     clear: both;
     display: flex;
-    height: 100px;
+    height: 30%;
     width: 30%;
     padding: 10px;
     margin-left: 30%;
