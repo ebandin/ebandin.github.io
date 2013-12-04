@@ -172,6 +172,9 @@ footer p {
         text-align: left;
         padding-left: 20%;
     }
+    article img {
+        display: none;
+    }
     article p {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 15px;

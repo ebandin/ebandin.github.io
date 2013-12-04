@@ -5,6 +5,14 @@
         <title> Project Webpage </title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link rel="stylesheet" href="css/style-clips.css" />
+        <script type="text/javascript">
+  function unhide(divID) {
+    var item = document.getElementById(divID);
+    if (item) {
+      item.className=(item.className=='hidden')?'unhidden':'hidden';
+    }
+  }
+</script>
     </head>
     
     <body>
@@ -35,28 +43,67 @@
             <br />
             <h1> Clips</h1>
             <p> 
-                <a href="resume.html">Back to Resume</a>
+                Arranged from newest to oldest. Use links to show and hide clippings below.
                 <br />
+         <a href="javascript:unhide('clip1');">UF to use reserves to continue research</a>
+        <br />
+         <a href="javascript:unhide('clip2');">Robotics team to try again in NASA mission</a>
+                <br />
+         <a href="javascript:unhide('clip3');">Florida museum recieves butterfly grant</a>
+                <br />
+         <a href="javascript:unhide('clip4');">Talking like Kardashians could fry vocal chords</a>
+                <br />
+         <a href="javascript:unhide('clip5');">Locals unsure about conflict in Syria</a>
+                <br />
+         <a href="javascript:unhide('clip6');">Final exams wont let students rest- avoid insomnia</a>
+                <br />
+         <a href="javascript:unhide('clip7');">Open house hopes to teach residents about gardening</a>
+                <br />
+         <a href="javascript:unhide('clip8');">UF gets 100-acre donation to research citrus greening epidemic</a>
+                <br />
+         <a href="javascript:unhide('clip9');">Animal debates get hairy, furry and scaly</a>
+                
+                
+            </p>
+                <br />
+<div id="clip1" class="hidden">
 <img src="img/resume-clip-1.jpg" alt="clip" title="UF to use reserves to continue research"/>
+    </div>
                 <br />
-<img src="img/resume-clip-2.jpg" alt="clip" title="UF to use reserves to continue research"/>
+            <div id="clip2" class="hidden">
+<img src="img/resume-clip-2.jpg" alt="clip" title="Robotics Team"/>
+                </div>
                 <br />
+            <div id="clip3" class="hidden">
                 <img src="img/resume-clip-3.jpg" alt="clip" title="UF to use reserves to continue research"/>
+                </div>
                 <br />
+            <div id="clip4" class="hidden">
                 <img src="img/resume-clip-4.jpg" alt="clip" title="UF to use reserves to continue research"/>
+                </div>
                 <br />
+            <div id="clip5" class="hidden">
                 <img src="img/resume-clip-5.jpg" alt="clip" title="UF to use reserves to continue research"/>
+                </div>
                 <br />
+            <div id="clip6" class="hidden">
                 <img src="img/resume-clip-6.jpg" alt="clip" title="UF to use reserves to continue research"/>
+                </div>
                 <br />
+            <div id="clip7" class="hidden">
                 <img src="img/resume-clip-7.jpg" alt="clip" title="UF to use reserves to continue research"/>
+                </div>
                 <br />
+            <div id="clip8" class="hidden">
                 <img src="img/resume-clip-8.jpg" alt="clip" title="UF to use reserves to continue research"/>
+                </div>
                 <br />
+            <div id="clip9" class="hidden">
                 <img src="img/resume-clip-9.jpg" alt="clip" title="UF to use reserves to continue research"/>
+                </div>
                 <br />
                                 <a href="resume.html">Back to Resume</a>
-            </p>
+
         </article>
                         <footer>
             <p>
